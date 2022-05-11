@@ -1,0 +1,59 @@
+
+
+@media screen and (min-width: 320px){
+    nav{
+        grid-area: nav;
+            width: 100vw;
+            background-image: linear-gradient(85deg, #d9eab7 0, #d2ecbb 5%, #caedc0 10%, #c3efc5 15%, #bcf0cb 20%, #b5f1d1 25%, #aef1d7 30%, #a9f2de 35%, #a4f2e5 40%, #a0f2eb 45%, #9df2f2 50%, #9cf2f8 55%, #9bf1fe 60%, #9df0ff 65%, #a0efff 70%, #a4eeff 75%, #aaecff 80%, #b1ebff 85%, #b8e9ff 90%, #c1e7ff 95%, #c9e5ff 100%);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border-radius: 30px;
+            padding: 10px 0px;
+            div a {
+                font-size: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            }
+    }
+}
+
+@media screen and (min-width: 720px){
+    nav{
+        grid-area: nav;
+            width: 100vw;
+            background-image: linear-gradient(85deg, #d9eab7 0, #d2ecbb 5%, #caedc0 10%, #c3efc5 15%, #bcf0cb 20%, #b5f1d1 25%, #aef1d7 30%, #a9f2de 35%, #a4f2e5 40%, #a0f2eb 45%, #9df2f2 50%, #9cf2f8 55%, #9bf1fe 60%, #9df0ff 65%, #a0efff 70%, #a4eeff 75%, #aaecff 80%, #b1ebff 85%, #b8e9ff 90%, #c1e7ff 95%, #c9e5ff 100%);
+            div a {
+                font-size: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            }
+    }
+}
+
+@media screen and (min-width: 1020px){
+    nav{
+        grid-area: nav;
+            width: 100vw;
+            background-image: linear-gradient(85deg, #d9eab7 0, #d2ecbb 5%, #caedc0 10%, #c3efc5 15%, #bcf0cb 20%, #b5f1d1 25%, #aef1d7 30%, #a9f2de 35%, #a4f2e5 40%, #a0f2eb 45%, #9df2f2 50%, #9cf2f8 55%, #9bf1fe 60%, #9df0ff 65%, #a0efff 70%, #a4eeff 75%, #aaecff 80%, #b1ebff 85%, #b8e9ff 90%, #c1e7ff 95%, #c9e5ff 100%);
+            div a {
+                font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            transition: all .3s ease-in-out;
+            &:hover {
+                box-sizing: 5px;
+                border: none;
+                padding: 7px 0px;
+                border-radius: 30px;
+                background-color: aliceblue ;
+                box-shadow: 1px 3px 3px 3px rgba(76, 178, 203, 0.5);  
+                transform: scale(1.2);
+            }
+            }
+            .navbar-personal {
+                width: 90vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                list-style: none;
+            }
+    }  
+}
